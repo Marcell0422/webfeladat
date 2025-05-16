@@ -1,0 +1,31 @@
+body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 50px auto;
+    }
+label 
+{
+    display: block;
+    margin-top: 10px;
+}
+input 
+{
+    width: 100%;
+    padding: 8px;
+}
+button 
+{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.response 
+{
+    margin-top: 20px;
+    white-space: pre-wrap;
+    background: #f8f9fa;
+    padding: 10px;
+}

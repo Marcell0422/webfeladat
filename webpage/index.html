@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="hu">
+<link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Új felhasználó hozzáadása</title>
+</head>
+<body>
+  <h2>POST tesztelése /</h2>
+  <h2>Új felhasználó hozzáadása</h2>
+  <form id="userForm">
+    <label for="id">ID:</label>
+    <input type="number" id="id" name="id" required /> <!--manuálisan beírható ID (kötelező megadni)-->
+
+    <label for="name">Név:</label>
+    <input type="text" id="name" name="name" required /><!--manuálisan beírható név (kötelező megadni)-->
+
+    <label for="username">Felhasználónév:</label>
+    <input type="text" id="username" name="username" required /><!--manuálisan beírható felhasználónév (kötelező megadni)-->
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required /><!--manuálisan beírható email (kötelező megadni és kér @ után is szöveget)-->
+
+    <button type="submit">Küldés</button> <!--küldés gomb-->
+  </form>
+
+  <div class="response" id="responseBox"></div>
+
+</body>
+<script src="page.js"></script>
+</html>
